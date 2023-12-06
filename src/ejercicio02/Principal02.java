@@ -85,86 +85,85 @@ public class Principal02 {
 	}
 
 	// Función pideAncho()
-		public static double pideAlto() {
+	public static double pideAlto() {
 
-			// Variable del valor que pediremos al usuario
-			double alto = -1;
+		// Variable del valor que pediremos al usuario
+		double alto = -1;
 
-			// Este bloque de instrucciones se ejecutará, al menos, una vez
-			do {
-				try {
-					// Pedimos al usuario el alto del rectángulo
-					System.out.println("Introduzca el alto del rectángulo");
-					// Lo leemos y se lo asignamos a la variable ancho
-					alto = sc.nextDouble();
-					// Si el dato introducido es de tipo incorrecto, mostrará este mensaje
-				} catch (InputMismatchException e) {
-					System.out.println("El dato introducido no es del tipo correcto");
-					// Siempre limpiaremos el buffer
-				} finally {
-					sc.nextLine();
-				}
-				// Si el valor de la variable es menor o igual que cero, repetiremos el bloque
-				// de instrucciones del do
-			} while (alto <= 0);
-
-			// La función devolverá el valor asignado al alto
-			return alto;
-
-		}
-	
-		public static void main(String[] args) {
-			
-			// Variable de la opción elegida por el usuario
-			int opcion;
-			// Variables de los valores que le pediremos al usuario
-			double ancho, alto;
-			// Variable del resultado que mostraremos
-			double resultado;
-
-			// Configuración para permitir en la consola números decimales con punto
-			sc.useLocale(Locale.US);
-
-			// Asignamos a la opción el valor devuelto por la función menu()
-			opcion = Principal02.menu();
-
-			// Mientras la opcion sea diferente de 0, ejecutaremos estas instrucciones
-			while (opcion != 0) {
-
-				// Asignamos al ancho el valor devuelto por la funcion pideAncho()
-				ancho = Principal02.pideAncho();
-				// Asignamos a alto el valor devuelto por la funcion pideAlto()
-				alto = Principal02.pideAlto();
-
-				// Creamos un objeto de tipo Rectangulo02 con los números solicitados al
-				// usuario como parámetros
-				Rectangulo02 rectangulo = new Rectangulo02(ancho, alto);
-
-				// Asignamos al resultado el valor devuelto por una de estas funciones, según
-				// cada caso del valor de la opción
-				resultado = switch (opcion) {
-				case 1 -> rectangulo.perimetro();
-				case 2 -> rectangulo.area();
-				default -> Math.sqrt(-1);
-				};
-				
-				// Mostramos el valor del resultado
-					System.out.println(resultado);
-
-				// Salto de línea
-				System.out.println();
-
-				// Asignamos a la opción un nuevo valor devuelto por la función menu()
-				opcion = Principal02.menu();
+		// Este bloque de instrucciones se ejecutará, al menos, una vez
+		do {
+			try {
+				// Pedimos al usuario el alto del rectángulo
+				System.out.println("Introduzca el alto del rectángulo");
+				// Lo leemos y se lo asignamos a la variable ancho
+				alto = sc.nextDouble();
+				// Si el dato introducido es de tipo incorrecto, mostrará este mensaje
+			} catch (InputMismatchException e) {
+				System.out.println("El dato introducido no es del tipo correcto");
+				// Siempre limpiaremos el buffer
+			} finally {
+				sc.nextLine();
 			}
+			// Si el valor de la variable es menor o igual que cero, repetiremos el bloque
+			// de instrucciones del do
+		} while (alto <= 0);
 
-			// Al salir del bucle, mostraremos este mensaje
-			System.out.println("Saliendo del programa");
-
-			// Cerramos el Scanner
-			sc.close();
-		}
+		// La función devolverá el valor asignado al alto
+		return alto;
 
 	}
 
+	// Función main()
+	public static void main(String[] args) {
 
+		// Variable de la opción elegida por el usuario
+		int opcion;
+		// Variables de los valores que le pediremos al usuario
+		double ancho, alto;
+		// Variable del resultado que mostraremos
+		double resultado;
+
+		// Configuración para permitir en la consola números decimales con punto
+		sc.useLocale(Locale.US);
+
+		// Asignamos a la opción el valor devuelto por la función menu()
+		opcion = Principal02.menu();
+
+		// Mientras la opcion sea diferente de 0, ejecutaremos estas instrucciones
+		while (opcion != 0) {
+
+			// Asignamos al ancho el valor devuelto por la funcion pideAncho()
+			ancho = Principal02.pideAncho();
+			// Asignamos a alto el valor devuelto por la funcion pideAlto()
+			alto = Principal02.pideAlto();
+
+			// Creamos un objeto de tipo Rectangulo02 con los números solicitados al
+			// usuario como parámetros
+			Rectangulo02 rectangulo = new Rectangulo02(ancho, alto);
+
+			// Asignamos al resultado el valor devuelto por una de estas funciones, según
+			// cada caso del valor de la opción
+			resultado = switch (opcion) {
+			case 1 -> rectangulo.perimetro();
+			case 2 -> rectangulo.area();
+			default -> Math.sqrt(-1);
+			};
+
+			// Mostramos el valor del resultado
+			System.out.println(resultado);
+
+			// Salto de línea
+			System.out.println();
+
+			// Asignamos a la opción un nuevo valor devuelto por la función menu()
+			opcion = Principal02.menu();
+		}
+
+		// Al salir del bucle, mostraremos este mensaje
+		System.out.println("Saliendo del programa");
+
+		// Cerramos el Scanner
+		sc.close();
+	}
+
+}
