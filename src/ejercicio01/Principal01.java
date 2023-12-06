@@ -116,7 +116,7 @@ public class Principal01 {
 			// Asignamos a numB el valor devuelto por la funcion pideNumero()
 			numB = Principal01.pideNumero();
 
-			// Creamos un objeto de tipo Operaciones01 con los números solicitados al
+			// Creamos un objeto de tipo Operaciones01 con los valores solicitados al
 			// usuario como parámetros
 			Operaciones01 operacion = new Operaciones01(numA, numB);
 

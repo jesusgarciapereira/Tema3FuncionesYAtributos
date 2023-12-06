@@ -137,7 +137,7 @@ public class Principal02 {
 			// Asignamos a alto el valor devuelto por la funcion pideAlto()
 			alto = Principal02.pideAlto();
 
-			// Creamos un objeto de tipo Rectangulo02 con los números solicitados al
+			// Creamos un objeto de tipo Rectangulo02 con los valores solicitados al
 			// usuario como parámetros
 			Rectangulo02 rectangulo = new Rectangulo02(ancho, alto);
 

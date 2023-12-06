@@ -56,7 +56,7 @@ public class Principal03 {
 		return opcion;
 	}
 
-	// Función pideAncho()
+	// Función pideRadio()
 	public static double pideRadio() {
 
 		// Variable del valor que pediremos al usuario
@@ -65,7 +65,7 @@ public class Principal03 {
 		// Este bloque de instrucciones se ejecutará, al menos, una vez
 		do {
 			try {
-				// Pedimos al usuario el ancho del rectángulo
+				// Pedimos al usuario el radio del círculo
 				System.out.println("Introduzca el radio del círculo");
 				// Lo leemos y se lo asignamos a la variable radio
 				radio = sc.nextDouble();
@@ -106,7 +106,7 @@ public class Principal03 {
 			// Asignamos al radio el valor devuelto por la funcion pideRadio()
 			radio = Principal03.pideRadio();
 
-			// Creamos un objeto de tipo Circulo03 con el número solicitados al
+			// Creamos un objeto de tipo Circulo03 con el valor solicitado al
 			// usuario como parámetros
 			Circulo03 circulo = new Circulo03(radio);
 

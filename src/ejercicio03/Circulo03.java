@@ -2,7 +2,7 @@ package ejercicio03;
 
 public class Circulo03 {
 
-	// Atributos
+	// Atributo
 	double radio;
 
 	// Constructor sin parámetros
