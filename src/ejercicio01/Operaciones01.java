@@ -22,7 +22,7 @@ public class Operaciones01 {
 		double suma;
 		// Le asignamos a la variable el resultado de la suma de los parámetros
 		suma = num1 + num2;
-		// Devuelve dicho valor
+		// La función devolverá dicho valor
 		return suma;
 	}
 
@@ -32,7 +32,7 @@ public class Operaciones01 {
 		double resta;
 		// Le asignamos a la variable el resultado de la resta de los parámetros
 		resta = num1 - num2;
-		// Devuelve dicho valor
+		// La función devolverá dicho valor
 		return resta;
 	}
 
@@ -42,7 +42,7 @@ public class Operaciones01 {
 		double multiplicacion;
 		// Le asignamos a la variable el resultado de la multiplicación de los parámetros
 		multiplicacion = num1 * num2;
-		// Devuelve dicho valor
+		// La función devolverá dicho valor
 		return multiplicacion;
 
 	}
@@ -53,7 +53,7 @@ public class Operaciones01 {
 		double division;
 		// Le asignamos a la variable el resultado de la división de los parámetros
 		division = num1 / num2;
-		// Devuelve dicho valor
+		// La función devolverá dicho valor
 		return division;
 	}
 
@@ -63,7 +63,7 @@ public class Operaciones01 {
 		double numMax;
 		// Le asignamos a la variable el valor del parámetro mayor o igual
 		numMax = num1 >= num2 ? num1 : num2;
-		// Devuelve dicho valor
+		// La función devolverá dicho valor
 		return numMax;
 	}
 
@@ -73,7 +73,7 @@ public class Operaciones01 {
 		double numMin;
 		// Le asignamos a la variable el valor del parámetro menor o igual
 		numMin = num1 <= num2 ? num1 : num2;
-		// Devuelve dicho valor
+		// La función devolverá dicho valor
 		return numMin;
 	}
 }
