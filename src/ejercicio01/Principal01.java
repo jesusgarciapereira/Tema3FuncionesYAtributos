@@ -93,6 +93,7 @@ public class Principal01 {
 
 	}
 
+	// Función main()
 	public static void main(String[] args) {
 		// Variable de la opción elegida por el usuario
 		int opcion;
