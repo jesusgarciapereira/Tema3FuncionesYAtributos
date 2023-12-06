@@ -47,7 +47,7 @@ public class Operaciones01 {
 
 	}
 
-	// Función división()
+	// Función division()
 	public double division() {
 		// Variable division
 		double division;
