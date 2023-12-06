@@ -4,6 +4,27 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
+//1. Suma
+//2. Resta
+//3. Multiplicación
+//4. División
+//5. Máximo
+//6. Mínimo
+//0. Salir
+//
+//Seleccione una opción
+//
+//ENTRADA: Elijo Suma | RESULTADO ESPERADO: El dato introducido no es del tipo correcto
+//ENTRADA: 4.5 | RESULTADO ESPERADO: El dato introducido no es del tipo correcto
+//ENTRADA: -1 | RESULTADO ESPERADO: Seleccione una opción
+//ENTRADA: 7 | RESULTADO ESPERADO: Seleccione una opción
+//ENTRADA: 1 dos | RESULTADO ESPERADO: El dato introducido no es del tipo correcto
+//ENTRADA: 1 3 4| RESULTADO ESPERADO: 7
+//ENTRADA: 3 4 5  | RESULTADO ESPERADO: 20
+//ENTRADA: 5 4.3 4.2 | RESULTADO ESPERADO: 4.3
+//ENTRADA: 4 2 0  | RESULTADO ESPERADO: No se puede dividir entre 0
+//ENTRADA: 0 | RESULTADO ESPERADO: Saliendo del programa
+
 public class Principal01 {
 
 	// Creamos el Scanner

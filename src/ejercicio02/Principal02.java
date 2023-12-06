@@ -4,6 +4,22 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
+//1. Perímetro
+//2. Área
+//0. Salir
+//
+//Seleccione una opción
+//
+//ENTRADA: Elijo Área | RESULTADO ESPERADO: El dato introducido no es del tipo correcto
+//ENTRADA: 1.4 | RESULTADO ESPERADO: El dato introducido no es del tipo correcto
+//ENTRADA: -1 | RESULTADO ESPERADO: Seleccione una opción
+//ENTRADA: 3 | RESULTADO ESPERADO: Seleccione una opción
+//ENTRADA: 1 dos | RESULTADO ESPERADO: El dato introducido no es del tipo correcto
+//ENTRADA: 1 5 6| RESULTADO ESPERADO: 22
+//ENTRADA: 2 3 4  | RESULTADO ESPERADO: 12
+//ENTRADA: 2 1.2 2.2  | RESULTADO ESPERADO: 2.64
+//ENTRADA: 0 | RESULTADO ESPERADO: Saliendo del programa
+
 public class Principal02 {
 
 	// Creamos el Scanner

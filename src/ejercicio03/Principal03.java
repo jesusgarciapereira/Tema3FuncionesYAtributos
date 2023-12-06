@@ -4,6 +4,22 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
+//1. Circunferencia
+//2. Área
+//0. Salir
+//
+//Seleccione una opción
+//
+//ENTRADA: Elijo Circunferencia | RESULTADO ESPERADO: El dato introducido no es del tipo correcto
+//ENTRADA: 2.7 | RESULTADO ESPERADO: El dato introducido no es del tipo correcto
+//ENTRADA: -1 | RESULTADO ESPERADO: Seleccione una opción
+//ENTRADA: 3 | RESULTADO ESPERADO: Seleccione una opción
+//ENTRADA: 1 dos | RESULTADO ESPERADO: El dato introducido no es del tipo correcto
+//ENTRADA: 1 5 | RESULTADO ESPERADO: 31.4
+//ENTRADA: 2 10  | RESULTADO ESPERADO: 314.1
+//ENTRADA: 1 5.6  | RESULTADO ESPERADO: 35.1
+//ENTRADA: 0 | RESULTADO ESPERADO: Saliendo del programa
+
 public class Principal03 {
 
 	// Creamos el Scanner
