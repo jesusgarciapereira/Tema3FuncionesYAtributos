@@ -22,7 +22,7 @@ import java.util.Scanner;
 
 public class Principal04 {
 
-	// Creamos el Scanner
+	// Activamos el Scanner
 	static Scanner sc = new Scanner(System.in);
 
 	// Función menu()
