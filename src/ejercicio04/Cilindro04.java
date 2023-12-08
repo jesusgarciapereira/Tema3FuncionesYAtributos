@@ -1,7 +1,10 @@
 package ejercicio04;
 
 public class Cilindro04 {
-	
+
+	// Constante número pi
+	static final double PI = Math.PI;
+
 	// Atributos
 	double radioBase, altura;
 
@@ -18,8 +21,6 @@ public class Cilindro04 {
 
 	// Función volumen()
 	public double volumen() {
-		// Constante número pi
-		final double PI = Math.PI;
 		// Variable volumen
 		double volumen;
 		// Asignamos la fórmula a la variable
@@ -30,8 +31,6 @@ public class Cilindro04 {
 
 	// Función area()
 	public double area() {
-		// Constante número pi
-		final double PI = Math.PI;
 		// Variable area
 		double area;
 		// Asignamos la fórmula a la variable

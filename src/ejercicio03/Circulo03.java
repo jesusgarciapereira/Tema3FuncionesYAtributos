@@ -1,6 +1,9 @@
 package ejercicio03;
 
 public class Circulo03 {
+	
+	// Constante número pi
+	static final double PI = Math.PI;
 
 	// Atributo
 	double radio;
@@ -17,8 +20,6 @@ public class Circulo03 {
 
 	// Función circunferencia()
 	public double circunferencia() {
-		// Constante número pi
-		final double PI = Math.PI;
 		// Variable circunferencia
 		double circunferencia;
 		// Asignamos la fórmula a la variable
@@ -30,8 +31,6 @@ public class Circulo03 {
 
 	// Función area()
 	public double area() {
-		// Constante número pi
-		final double PI = Math.PI;
 		// Variable area
 		double area;
 		// Asignamos la fórmula a la variable
